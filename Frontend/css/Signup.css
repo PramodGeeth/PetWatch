@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 135%;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F2FCFF;
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  top: 0;
+  background: transparent;
+  position: fixed;
+  z-index: 1;
+  transition: top 0.3s; 
+}
+
+.navbar_left, .navbar_right {
+  display: flex;
+  align-items: center;
+  border-radius: 45px;
+  padding: 15px;
+  height: 30px;
+}
+
+.navbar_left {
+  background-color: #ffffff;
+  margin-left: 120px;
+  width: 200px;
+  justify-content: center;
+}
+
+.navbar_right {
+  background-color: #ffffff;
+  margin-right: 120px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.logo img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: rgb(101, 64, 64);
+  font-size: 14px;
+  margin: 0 20px;
+}
+
+.nav_links a:hover {
+  color: #17AFEF;
+}
+
+.nav_buttons {
+  display: flex;
+  align-items: center;
+}
+
+.signup_button {
+  background-color: transparent; 
+  border: 2px solid #17AFEF; 
+  color: #17AFEF; 
+  padding: 5px 32px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.signup_button:hover {
+  background-color: transparent; 
+  border: 2px solid #DE732D; 
+  color: #DE732D; 
+}
+
+.signin_button {
+  background-color: #17AFEF;
+  padding: 7px 32px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px; 
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.signin_button:hover {
+  background-color: #DE732D;
+  color: white;
+}
+
+
+/*sign up card*/
+.crd_body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 850px;
+    width: 100%;
+    height: 75vh;
+
+}
+
+.sgup_lft_section {
+    background-image: url(../../Images/Ellipse\ 5.png);
+    background-repeat: no-repeat;
+    background-position: 0px 120px;
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.sgup_lft_section h2 {
+    margin-bottom: 15px;
+    color: #0056b3;
+    text-align: left;
+}
+
+.sgup_lft_section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.sgup_lft_section p a{
+  color: #17AFEF;
+}
+
+.sgup_lft_section img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.sgup_rgt_section {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sgup_rgt_section h2 {
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.input_field {
+    margin-bottom: 15px;
+}
+
+.input_field input {
+    width: 300px;
+    padding: 13px;
+    border: 1px solid rgba(187, 234, 254, 1);
+    border-radius: 30px;
+    font-size: 12px;
+    
+}
+
+.signup_btn {
+    width: 320px;
+    padding: 14px;
+    background-color: rgba(23, 175, 239, 1);
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.signup_btn:hover {
+    background-color: #046edf;
+}
+
+.sgup_rgt_section p {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sgup_rgt_section p a {
+    color: rgba(23, 175, 239, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sgup_rgt_section p a:hover {
+    text-decoration: underline;
+    
+}
